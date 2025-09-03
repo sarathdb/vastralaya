@@ -1,0 +1,3 @@
+.nodrag {
+  pointer-events: none;
+}

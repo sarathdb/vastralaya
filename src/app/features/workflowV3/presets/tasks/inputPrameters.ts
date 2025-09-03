@@ -1,0 +1,80 @@
+export const defaultParams = [
+  {
+    key: "companyId",
+    value: "${workflow.input.companyId}",
+    id: "inputParameters-1",
+    disabled: true,
+  },
+  {
+    key: "assetID",
+    value: "${workflow.input.assetID}",
+    id: "inputParameters-2",
+    disabled: true,
+  },
+  {
+    key: "integrationUserId",
+    value: "${workflow.input.integrationUserId}",
+    id: "inputParameters-3",
+    disabled: true,
+  },
+  {
+    key: "integrationUserSecret",
+    value: "${workflow.input.integrationUserSecret}",
+    id: "inputParameters-4",
+    disabled: true,
+  },
+  {
+    key: "docUri",
+    value: "${workflow.input.docUri}",
+    id: "inputParameters-5",
+    disabled: true,
+  },
+  {
+    key: "outputUri",
+    value: "${workflow.input.outputUri}",
+    id: "inputParameters-6",
+    disabled: true,
+  },
+  {
+    key: "dxpapiUrl",
+    value: "${workflow.input.dxpapiUrl}",
+    id: "inputParameters-7",
+    disabled: true,
+  },
+  {
+    key: "assetDetails",
+    value: "${workflow.input.assetDetails}",
+    id: "inputParameters-8",
+    disabled: true,
+  },
+  {
+    key: "assetFileName",
+    value: "${workflow.input.assetFileName}",
+    id: "inputParameters-9",
+    disabled: true,
+  },
+  {
+    key: "idpRuntimeUrl",
+    value: "${workflow.input.idpRuntimeUrl}",
+    id: "inputParameters-10",
+    disabled: true,
+  },
+  {
+    key: "idpCallbackUrl",
+    value: "${workflow.input.idpCallbackUrl}",
+    id: "inputParameters-11",
+    disabled: true,
+  },
+  {
+    key: "dxpTaskQueueSvcUrl",
+    value: "${workflow.input.dxpTaskQueueSvcUrl}",
+    id: "inputParameters-12",
+    disabled: true,
+  },
+  {
+    key: "solutionId",
+    value: "${workflow.input.solutionId}",
+    id: "inputParameters-13",
+    disabled: true,
+  },
+];

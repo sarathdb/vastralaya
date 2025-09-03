@@ -1,0 +1,50 @@
+{
+  // "compilerOptions": {
+  //   "declarationDir": null,
+  //   "allowJs": true,
+  //   "resolveJsonModule": true,
+  //   "declaration": true,
+  //   "module": "CommonJS"
+  // },
+
+  // {
+  //   "compilerOptions": {
+  //     "module": "esnext",   // ✅ Change this to "esnext", "es2020", or "es2022"
+  //     "moduleResolution": "node",
+  //     "target": "esnext",   // ✅ Ensure target is compatible
+  //     "strict": true,
+  //     "jsx": "react-jsx"
+  //   }
+  // }
+
+  "compilerOptions": {
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "allowSyntheticDefaultImports": true,
+    "declarationDir": "dist",
+    "importHelpers": true,
+    "jsx": "react",
+    "module": "esnext",
+    "moduleResolution": "Node",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": false,
+    "noImplicitAny": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "outDir": "dist",
+    "pretty": true,
+    "removeComments": true,
+    "sourceMap": true,
+    // "target": "es2016",
+    "target": "esnext",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": false,
+    "skipLibCheck": true,
+    "types": ["vite/client"]
+  },
+  "exclude": ["node_modules", "dist"],
+  "include": ["src", "src/assets"]
+}

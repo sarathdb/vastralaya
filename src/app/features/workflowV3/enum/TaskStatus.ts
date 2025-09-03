@@ -1,0 +1,7 @@
+export enum TaskStatusTypes {
+  RUNNING = "RUNNING",
+  FAILED = "FAILED",
+  COMPLETED = "COMPLETED",
+  IN_PROGRESS = "IN_PROGRESS",
+  NOT_STARTED = "NOT_STARTED",
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+<g id="CheckBoxFilled">
+<path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M8.625 3.5C5.5184 3.5 3 6.0184 3 9.125V15.875C3 18.9816 5.5184 21.5 8.625 21.5H15.375C18.4816 21.5 21 18.9816 21 15.875V9.125C21 6.0184 18.4816 3.5 15.375 3.5H8.625ZM17.6501 9.6749L16.2501 8.2749L10.6001 13.9249L7.7501 11.0749L6.3501 12.4749L10.6001 16.7249L14.1251 13.1999L17.6501 9.6749Z" fill="#1C75BC"/>
+</g>
+</svg>

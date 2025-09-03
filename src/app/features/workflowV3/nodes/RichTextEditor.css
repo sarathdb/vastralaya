@@ -1,0 +1,10 @@
+/* custom-quill styles (RichTextEditor.css): */
+
+.custom-quill .ql-container {
+  max-height: 100%;
+}
+
+.custom-quill .ql-editor {
+  max-height: 150px;
+  overflow-y: auto;
+}
