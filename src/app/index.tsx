@@ -12,7 +12,6 @@ import Home1 from "./features/home1";
 const AppContent = () => {
   return (
     <>
-      {/* {shouldShowHeader && <AppHeader />} */}
       <Routes>
         <Route path="/" element={<Home1 />} />
         <Route path="/:id" element={<Tour />} />
