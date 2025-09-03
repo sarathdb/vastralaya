@@ -10,10 +10,6 @@ import Chat from "./features/chat/Chat";
 import Home1 from "./features/home1";
 
 const AppContent = () => {
-  // const location = useLocation();
-  // const hideHeaderPaths = ["/login", "/register"];
-  // const shouldShowHeader = !hideHeaderPaths.includes(location.pathname);
-
   return (
     <>
       {/* {shouldShowHeader && <AppHeader />} */}
