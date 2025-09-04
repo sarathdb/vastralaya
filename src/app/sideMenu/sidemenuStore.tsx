@@ -21,10 +21,6 @@ import {
   migrationIcon,
 } from "../../assets";
 import { workflowIcon, rulesIcon } from "../../assets";
-// import { isAiAssistantAllowed } from "../utils/constants";
-// import aiStore from "../aiContext/store";
-// import workFlowStore from "../workflow/workFlowStore";
-// import workFlowStore from "../workflowV2/workFlowStore";
 
 export interface DxPFeature {
   id: string;
