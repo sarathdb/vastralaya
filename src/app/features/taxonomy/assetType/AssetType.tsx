@@ -20,6 +20,7 @@ const AssetType = () => {
           </Grid2>
         ))}
       </Grid2> */}
+
       <Stack sx={{ mb: 2 }} direction="row" justifyContent="space-between">
         <Typography variant="h6">Asset Type</Typography>
         <Button variant="contained" onClick={() => setOpenCreateSolution(true)}>
@@ -60,6 +61,15 @@ const AssetType = () => {
         mediaCategories={mockMediaCategories}
         onCancel={() => setOpenCreateSolution(false)}
       />
+
+      {/* <Grid2 container spacing={2} >
+        {mockAssetTypes.map((assetType) => (
+          <Grid2 columnGap={12} key={assetType._id}>
+            <Typography variant="h6">{assetType.type}</Typography>
+          </Grid2>
+        ))}
+      </Grid2> */}
+      
     </Stack>
   );
 };
